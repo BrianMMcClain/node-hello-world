@@ -1,0 +1,23 @@
+{
+  "name": "node-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianMMcClain/node-hello-world.git"
+  },
+  "author": "Brian McClain",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/BrianMMcClain/node-hello-world/issues"
+  },
+  "homepage": "https://github.com/BrianMMcClain/node-hello-world#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
