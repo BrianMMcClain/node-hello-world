@@ -5,7 +5,7 @@ const port = process.env.PORT || 3000
 app.get('/', (req, res) => {
     var d = new Date()
     console.log(`[${d.toISOString()}] GET / `)
-    res.send("Hello World!")
+    res.send("<h1>Hello, World!</h1>")
 })
 
 app.listen(port, () => {
